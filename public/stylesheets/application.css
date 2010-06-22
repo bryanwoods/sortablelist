@@ -1,0 +1,17 @@
+body {
+  text-align: center; }
+
+h1 {
+  border-bottom: 1px black solid;
+  padding-bottom: 5px; }
+
+#wrapper {
+  width: 800px;
+  text-align: left;
+  margin: auto; }
+
+li .handle {
+  font-size: 12px;
+  cursor: move;
+  color: #777;
+}

@@ -1,0 +1,12 @@
+%h2 Posts
+- if !@posts.empty?
+  %ul#posts
+    - @posts.each do |post|
+      - content_tag_for :li, post do
+        %span.handle [drag]
+        = link_to h(post.title), post
+  = sortable_element("posts", :url => sort_posts_path, :handle => "handle")
+  = will_paginate(@posts)
+- else
+  %p There are no posts to show yet.
+%p= link_to 'New post', new_post_path
