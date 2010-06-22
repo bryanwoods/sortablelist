@@ -2,8 +2,6 @@ class PostsController < ApplicationController
 
   before_filter :find_post
 
-  POSTS_PER_PAGE = 20
-
   def create
     @post = Post.new(params[:post])
     respond_to do |format|
@@ -31,10 +29,9 @@ class PostsController < ApplicationController
   end
 
   def index
-    @posts = Post.paginate(:page => params[:page], :order => "position", :per_page => POSTS_PER_PAGE)
+    @posts = Post.all(:order => "position")
     respond_to do |format|
       format.html
-      format.xml  { render :xml => @posts }
     end
   end
 
