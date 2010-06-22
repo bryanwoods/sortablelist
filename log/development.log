@@ -883,3 +883,416 @@ Processing PostsController#sort (for 127.0.0.1 at 2010-06-22 18:18:04) [POST]
   [4;35;1mPost Update (3.1ms)[0m   [0mUPDATE "posts" SET position=5 WHERE (id='5') [0m
   [4;36;1mPost Update (3.6ms)[0m   [0;1mUPDATE "posts" SET position=6 WHERE (id='2') [0m
 Completed in 21ms (View: 1, DB: 14) | 200 OK [http://localhost/posts/sort]
+  [4;36;1mPost Delete all (2.6ms)[0m   [0;1mDELETE FROM "posts" WHERE 1=1[0m
+  [4;35;1mPost Last ID (0.1ms)[0m   [0mSELECT id FROM "posts" ORDER BY id DESC[0m
+  [4;36;1mPost Delete all (0.9ms)[0m   [0;1mDELETE FROM "posts" WHERE 1=1[0m
+  [4;35;1mPost Last ID (0.1ms)[0m   [0mSELECT id FROM "posts" ORDER BY id DESC[0m
+  [4;36;1mPost Populate (5.4ms)[0m   [0;1mINSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (1, 'Perspiciatis sint dolorem tenetur qui aspernatur in rem.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (2, 'Quisquam dicta ad optio sed minima quaerat.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (3, 'Iure qui at modi.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (4, 'Qui dolores pariatur sint.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (5, 'Accusantium et consectetur veritatis.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (6, 'Qui quidem sequi consequatur id voluptatem enim.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (7, 'Voluptas assumenda doloremque rerum minus earum.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (8, 'Totam et at harum.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (9, 'Ea aut velit nesciunt vero perferendis similique modi ipsa.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (10, 'Illo odit perferendis possimus nihil saepe temporibus.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (11, 'Ipsam temporibus et enim.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (12, 'Et aliquam ut nemo dolore earum quis.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (13, 'Necessitatibus nihil qui eveniet.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (14, 'Cum necessitatibus provident nulla at impedit et dignissimos.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (15, 'Quam et et reprehenderit ipsam tempore.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (16, 'Exercitationem mollitia qui dolor asperiores sit.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (17, 'Perferendis dolorum qui eos praesentium occaecati omnis.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (18, 'Illo aliquid atque quia.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (19, 'Doloribus facere vel aut laboriosam.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (20, 'Id cum cumque quo soluta et quae ut et.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (21, 'Asperiores expedita est ut ex aut quia voluptates repellendus.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (22, 'Aliquid incidunt omnis non expedita voluptas voluptatem veritatis.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (23, 'Et in tempore at quam recusandae.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (24, 'Minus et facere qui.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (25, 'Quia quasi beatae unde dolores iure labore adipisci.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (26, 'Pariatur sit aut et fugiat in corporis eos et.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (27, 'Repellendus eius modi est consequuntur illum deserunt sed illo.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (28, 'Repellat rerum est fuga accusamus.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (29, 'Suscipit voluptatem a sit.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (30, 'Quisquam enim libero est consequatur et asperiores.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (31, 'In et nihil qui aperiam sed dignissimos.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (32, 'Voluptatem aut quia et consequatur sapiente voluptas consequuntur.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (33, 'Aut laboriosam minus velit et sunt esse mollitia praesentium.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (34, 'Necessitatibus atque rerum facilis reprehenderit voluptatum.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (35, 'Ratione dignissimos repudiandae qui.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (36, 'Aliquam sed omnis blanditiis optio.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (37, 'Autem facilis nostrum nisi est quas dolores qui.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (38, 'Facilis accusamus blanditiis iure.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (39, 'Error quia eaque aut odio.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (40, 'Repudiandae dicta aut sint quibusdam eius saepe sunt dolores.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (41, 'Explicabo quis est est reiciendis rerum maiores numquam ipsum.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (42, 'Velit debitis deleniti dolorum sit sit.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (43, 'Quia ipsam at consequuntur cumque nobis pariatur doloribus.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (44, 'Et in voluptatem non tenetur tempore aut.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (45, 'Explicabo dolor animi est accusantium eveniet id qui.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (46, 'Itaque beatae blanditiis et labore repellat.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (47, 'Temporibus suscipit dicta cum.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (48, 'Officia qui expedita praesentium.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (49, 'Quasi voluptates molestiae consequatur quia.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL);INSERT INTO "posts" ("id", "title", "created_at", "updated_at", "position") VALUES (50, 'Aspernatur molestias assumenda quam explicabo.', '2010-06-22 18:24:49', '2010-06-22 18:24:49', NULL)[0m
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-06-22 18:25:18) [GET]
+  [4;36;1mPost Load (1.6ms)[0m   [0;1mSELECT * FROM "posts" ORDER BY position LIMIT 20 OFFSET 0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 36ms (View: 28, DB: 2) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-06-22 18:25:21) [GET]
+  [4;36;1mPost Load (1.5ms)[0m   [0;1mSELECT * FROM "posts" ORDER BY position LIMIT 20 OFFSET 0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 21ms (View: 14, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing PostsController#sort (for 127.0.0.1 at 2010-06-22 18:25:24) [POST]
+  Parameters: {"authenticity_token"=>"lkj3Vvv4O1aKk14ht1OC1I5dM6nyXOStttZMxoE/kNU=", "posts"=>["1", "2", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "3", "15", "16", "17", "18", "19", "20"], "_"=>""}
+  [4;36;1mPost Update (3.6ms)[0m   [0;1mUPDATE "posts" SET position=1 WHERE (id='1') [0m
+  [4;35;1mPost Update (2.1ms)[0m   [0mUPDATE "posts" SET position=2 WHERE (id='2') [0m
+  [4;36;1mPost Update (2.3ms)[0m   [0;1mUPDATE "posts" SET position=3 WHERE (id='4') [0m
+  [4;35;1mPost Update (5.1ms)[0m   [0mUPDATE "posts" SET position=4 WHERE (id='5') [0m
+  [4;36;1mPost Update (3.8ms)[0m   [0;1mUPDATE "posts" SET position=5 WHERE (id='6') [0m
+  [4;35;1mPost Update (1.5ms)[0m   [0mUPDATE "posts" SET position=6 WHERE (id='7') [0m
+  [4;36;1mPost Update (1.6ms)[0m   [0;1mUPDATE "posts" SET position=7 WHERE (id='8') [0m
+  [4;35;1mPost Update (2.9ms)[0m   [0mUPDATE "posts" SET position=8 WHERE (id='9') [0m
+  [4;36;1mPost Update (2.0ms)[0m   [0;1mUPDATE "posts" SET position=9 WHERE (id='10') [0m
+  [4;35;1mPost Update (2.2ms)[0m   [0mUPDATE "posts" SET position=10 WHERE (id='11') [0m
+  [4;36;1mPost Update (2.4ms)[0m   [0;1mUPDATE "posts" SET position=11 WHERE (id='12') [0m
+  [4;35;1mPost Update (2.1ms)[0m   [0mUPDATE "posts" SET position=12 WHERE (id='13') [0m
+  [4;36;1mPost Update (2.2ms)[0m   [0;1mUPDATE "posts" SET position=13 WHERE (id='14') [0m
+  [4;35;1mPost Update (2.0ms)[0m   [0mUPDATE "posts" SET position=14 WHERE (id='3') [0m
+  [4;36;1mPost Update (2.7ms)[0m   [0;1mUPDATE "posts" SET position=15 WHERE (id='15') [0m
+  [4;35;1mPost Update (3.7ms)[0m   [0mUPDATE "posts" SET position=16 WHERE (id='16') [0m
+  [4;36;1mPost Update (1.5ms)[0m   [0;1mUPDATE "posts" SET position=17 WHERE (id='17') [0m
+  [4;35;1mPost Update (2.6ms)[0m   [0mUPDATE "posts" SET position=18 WHERE (id='18') [0m
+  [4;36;1mPost Update (2.0ms)[0m   [0;1mUPDATE "posts" SET position=19 WHERE (id='19') [0m
+  [4;35;1mPost Update (1.4ms)[0m   [0mUPDATE "posts" SET position=20 WHERE (id='20') [0m
+Completed in 68ms (View: 1, DB: 50) | 200 OK [http://localhost/posts/sort]
+
+
+Processing PostsController#sort (for 127.0.0.1 at 2010-06-22 18:25:26) [POST]
+  Parameters: {"authenticity_token"=>"lkj3Vvv4O1aKk14ht1OC1I5dM6nyXOStttZMxoE/kNU=", "posts"=>["1", "2", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "3", "15", "16", "17", "18", "4", "19", "20"], "_"=>""}
+  [4;36;1mPost Update (2.3ms)[0m   [0;1mUPDATE "posts" SET position=1 WHERE (id='1') [0m
+  [4;35;1mPost Update (2.3ms)[0m   [0mUPDATE "posts" SET position=2 WHERE (id='2') [0m
+  [4;36;1mPost Update (2.8ms)[0m   [0;1mUPDATE "posts" SET position=3 WHERE (id='5') [0m
+  [4;35;1mPost Update (2.0ms)[0m   [0mUPDATE "posts" SET position=4 WHERE (id='6') [0m
+  [4;36;1mPost Update (1.8ms)[0m   [0;1mUPDATE "posts" SET position=5 WHERE (id='7') [0m
+  [4;35;1mPost Update (3.9ms)[0m   [0mUPDATE "posts" SET position=6 WHERE (id='8') [0m
+  [4;36;1mPost Update (2.2ms)[0m   [0;1mUPDATE "posts" SET position=7 WHERE (id='9') [0m
+  [4;35;1mPost Update (1.8ms)[0m   [0mUPDATE "posts" SET position=8 WHERE (id='10') [0m
+  [4;36;1mPost Update (1.7ms)[0m   [0;1mUPDATE "posts" SET position=9 WHERE (id='11') [0m
+  [4;35;1mPost Update (1.9ms)[0m   [0mUPDATE "posts" SET position=10 WHERE (id='12') [0m
+  [4;36;1mPost Update (1.9ms)[0m   [0;1mUPDATE "posts" SET position=11 WHERE (id='13') [0m
+  [4;35;1mPost Update (5.4ms)[0m   [0mUPDATE "posts" SET position=12 WHERE (id='14') [0m
+  [4;36;1mPost Update (2.0ms)[0m   [0;1mUPDATE "posts" SET position=13 WHERE (id='3') [0m
+  [4;35;1mPost Update (1.8ms)[0m   [0mUPDATE "posts" SET position=14 WHERE (id='15') [0m
+  [4;36;1mPost Update (2.0ms)[0m   [0;1mUPDATE "posts" SET position=15 WHERE (id='16') [0m
+  [4;35;1mPost Update (1.4ms)[0m   [0mUPDATE "posts" SET position=16 WHERE (id='17') [0m
+  [4;36;1mPost Update (2.1ms)[0m   [0;1mUPDATE "posts" SET position=17 WHERE (id='18') [0m
+  [4;35;1mPost Update (4.6ms)[0m   [0mUPDATE "posts" SET position=18 WHERE (id='4') [0m
+  [4;36;1mPost Update (2.0ms)[0m   [0;1mUPDATE "posts" SET position=19 WHERE (id='19') [0m
+  [4;35;1mPost Update (1.6ms)[0m   [0mUPDATE "posts" SET position=20 WHERE (id='20') [0m
+Completed in 62ms (View: 1, DB: 48) | 200 OK [http://localhost/posts/sort]
+
+
+Processing PostsController#sort (for 127.0.0.1 at 2010-06-22 18:25:30) [POST]
+  Parameters: {"authenticity_token"=>"lkj3Vvv4O1aKk14ht1OC1I5dM6nyXOStttZMxoE/kNU=", "posts"=>["1", "2", "5", "6", "7", "8", "9", "10", "20", "11", "12", "13", "14", "3", "15", "16", "17", "18", "4", "19"], "_"=>""}
+  [4;36;1mPost Update (3.6ms)[0m   [0;1mUPDATE "posts" SET position=1 WHERE (id='1') [0m
+  [4;35;1mPost Update (2.0ms)[0m   [0mUPDATE "posts" SET position=2 WHERE (id='2') [0m
+  [4;36;1mPost Update (2.1ms)[0m   [0;1mUPDATE "posts" SET position=3 WHERE (id='5') [0m
+  [4;35;1mPost Update (3.5ms)[0m   [0mUPDATE "posts" SET position=4 WHERE (id='6') [0m
+  [4;36;1mPost Update (3.7ms)[0m   [0;1mUPDATE "posts" SET position=5 WHERE (id='7') [0m
+  [4;35;1mPost Update (1.7ms)[0m   [0mUPDATE "posts" SET position=6 WHERE (id='8') [0m
+  [4;36;1mPost Update (1.5ms)[0m   [0;1mUPDATE "posts" SET position=7 WHERE (id='9') [0m
+  [4;35;1mPost Update (2.4ms)[0m   [0mUPDATE "posts" SET position=8 WHERE (id='10') [0m
+  [4;36;1mPost Update (2.5ms)[0m   [0;1mUPDATE "posts" SET position=9 WHERE (id='20') [0m
+  [4;35;1mPost Update (1.8ms)[0m   [0mUPDATE "posts" SET position=10 WHERE (id='11') [0m
+  [4;36;1mPost Update (1.8ms)[0m   [0;1mUPDATE "posts" SET position=11 WHERE (id='12') [0m
+  [4;35;1mPost Update (2.1ms)[0m   [0mUPDATE "posts" SET position=12 WHERE (id='13') [0m
+  [4;36;1mPost Update (1.6ms)[0m   [0;1mUPDATE "posts" SET position=13 WHERE (id='14') [0m
+  [4;35;1mPost Update (1.5ms)[0m   [0mUPDATE "posts" SET position=14 WHERE (id='3') [0m
+  [4;36;1mPost Update (1.5ms)[0m   [0;1mUPDATE "posts" SET position=15 WHERE (id='15') [0m
+  [4;35;1mPost Update (2.4ms)[0m   [0mUPDATE "posts" SET position=16 WHERE (id='16') [0m
+  [4;36;1mPost Update (4.0ms)[0m   [0;1mUPDATE "posts" SET position=17 WHERE (id='17') [0m
+  [4;35;1mPost Update (2.0ms)[0m   [0mUPDATE "posts" SET position=18 WHERE (id='18') [0m
+  [4;36;1mPost Update (1.4ms)[0m   [0;1mUPDATE "posts" SET position=19 WHERE (id='4') [0m
+  [4;35;1mPost Update (2.8ms)[0m   [0mUPDATE "posts" SET position=20 WHERE (id='19') [0m
+Completed in 64ms (View: 2, DB: 46) | 200 OK [http://localhost/posts/sort]
+
+
+Processing PostsController#sort (for 127.0.0.1 at 2010-06-22 18:25:31) [POST]
+  Parameters: {"authenticity_token"=>"lkj3Vvv4O1aKk14ht1OC1I5dM6nyXOStttZMxoE/kNU=", "posts"=>["1", "2", "5", "7", "8", "9", "10", "20", "11", "12", "13", "6", "14", "3", "15", "16", "17", "18", "4", "19"], "_"=>""}
+  [4;36;1mPost Update (3.5ms)[0m   [0;1mUPDATE "posts" SET position=1 WHERE (id='1') [0m
+  [4;35;1mPost Update (1.7ms)[0m   [0mUPDATE "posts" SET position=2 WHERE (id='2') [0m
+  [4;36;1mPost Update (4.3ms)[0m   [0;1mUPDATE "posts" SET position=3 WHERE (id='5') [0m
+  [4;35;1mPost Update (2.0ms)[0m   [0mUPDATE "posts" SET position=4 WHERE (id='7') [0m
+  [4;36;1mPost Update (1.7ms)[0m   [0;1mUPDATE "posts" SET position=5 WHERE (id='8') [0m
+  [4;35;1mPost Update (1.7ms)[0m   [0mUPDATE "posts" SET position=6 WHERE (id='9') [0m
+  [4;36;1mPost Update (2.5ms)[0m   [0;1mUPDATE "posts" SET position=7 WHERE (id='10') [0m
+  [4;35;1mPost Update (2.3ms)[0m   [0mUPDATE "posts" SET position=8 WHERE (id='20') [0m
+  [4;36;1mPost Update (3.3ms)[0m   [0;1mUPDATE "posts" SET position=9 WHERE (id='11') [0m
+  [4;35;1mPost Update (2.1ms)[0m   [0mUPDATE "posts" SET position=10 WHERE (id='12') [0m
+  [4;36;1mPost Update (1.8ms)[0m   [0;1mUPDATE "posts" SET position=11 WHERE (id='13') [0m
+  [4;35;1mPost Update (2.0ms)[0m   [0mUPDATE "posts" SET position=12 WHERE (id='6') [0m
+  [4;36;1mPost Update (1.4ms)[0m   [0;1mUPDATE "posts" SET position=13 WHERE (id='14') [0m
+  [4;35;1mPost Update (3.1ms)[0m   [0mUPDATE "posts" SET position=14 WHERE (id='3') [0m
+  [4;36;1mPost Update (1.9ms)[0m   [0;1mUPDATE "posts" SET position=15 WHERE (id='15') [0m
+  [4;35;1mPost Update (2.0ms)[0m   [0mUPDATE "posts" SET position=16 WHERE (id='16') [0m
+  [4;36;1mPost Update (4.9ms)[0m   [0;1mUPDATE "posts" SET position=17 WHERE (id='17') [0m
+  [4;35;1mPost Update (1.5ms)[0m   [0mUPDATE "posts" SET position=18 WHERE (id='18') [0m
+  [4;36;1mPost Update (1.4ms)[0m   [0;1mUPDATE "posts" SET position=19 WHERE (id='4') [0m
+  [4;35;1mPost Update (2.2ms)[0m   [0mUPDATE "posts" SET position=20 WHERE (id='19') [0m
+Completed in 65ms (View: 1, DB: 47) | 200 OK [http://localhost/posts/sort]
+
+
+Processing PostsController#sort (for 127.0.0.1 at 2010-06-22 18:25:32) [POST]
+  Parameters: {"authenticity_token"=>"lkj3Vvv4O1aKk14ht1OC1I5dM6nyXOStttZMxoE/kNU=", "posts"=>["1", "2", "5", "7", "8", "9", "10", "20", "16", "11", "12", "13", "6", "14", "3", "15", "17", "18", "4", "19"], "_"=>""}
+  [4;36;1mPost Update (2.5ms)[0m   [0;1mUPDATE "posts" SET position=1 WHERE (id='1') [0m
+  [4;35;1mPost Update (2.0ms)[0m   [0mUPDATE "posts" SET position=2 WHERE (id='2') [0m
+  [4;36;1mPost Update (1.6ms)[0m   [0;1mUPDATE "posts" SET position=3 WHERE (id='5') [0m
+  [4;35;1mPost Update (24.9ms)[0m   [0mUPDATE "posts" SET position=4 WHERE (id='7') [0m
+  [4;36;1mPost Update (35.9ms)[0m   [0;1mUPDATE "posts" SET position=5 WHERE (id='8') [0m
+  [4;35;1mPost Update (2.3ms)[0m   [0mUPDATE "posts" SET position=6 WHERE (id='9') [0m
+  [4;36;1mPost Update (2.2ms)[0m   [0;1mUPDATE "posts" SET position=7 WHERE (id='10') [0m
+  [4;35;1mPost Update (5.8ms)[0m   [0mUPDATE "posts" SET position=8 WHERE (id='20') [0m
+  [4;36;1mPost Update (11.3ms)[0m   [0;1mUPDATE "posts" SET position=9 WHERE (id='16') [0m
+  [4;35;1mPost Update (76.7ms)[0m   [0mUPDATE "posts" SET position=10 WHERE (id='11') [0m
+  [4;36;1mPost Update (51.1ms)[0m   [0;1mUPDATE "posts" SET position=11 WHERE (id='12') [0m
+  [4;35;1mPost Update (45.3ms)[0m   [0mUPDATE "posts" SET position=12 WHERE (id='13') [0m
+  [4;36;1mPost Update (40.7ms)[0m   [0;1mUPDATE "posts" SET position=13 WHERE (id='6') [0m
+  [4;35;1mPost Update (26.8ms)[0m   [0mUPDATE "posts" SET position=14 WHERE (id='14') [0m
+  [4;36;1mPost Update (22.1ms)[0m   [0;1mUPDATE "posts" SET position=15 WHERE (id='3') [0m
+  [4;35;1mPost Update (138.2ms)[0m   [0mUPDATE "posts" SET position=16 WHERE (id='15') [0m
+  [4;36;1mPost Update (177.4ms)[0m   [0;1mUPDATE "posts" SET position=17 WHERE (id='17') [0m
+  [4;35;1mPost Update (1.6ms)[0m   [0mUPDATE "posts" SET position=18 WHERE (id='18') [0m
+  [4;36;1mPost Update (1.9ms)[0m   [0;1mUPDATE "posts" SET position=19 WHERE (id='4') [0m
+  [4;35;1mPost Update (3.1ms)[0m   [0mUPDATE "posts" SET position=20 WHERE (id='19') [0m
+Completed in 691ms (View: 1, DB: 673) | 200 OK [http://localhost/posts/sort]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-06-22 18:25:34) [GET]
+  Parameters: {"page"=>"2"}
+  [4;36;1mPost Load (1.6ms)[0m   [0;1mSELECT * FROM "posts" ORDER BY position LIMIT 20 OFFSET 20[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 20ms (View: 13, DB: 2) | 200 OK [http://localhost/posts?page=2]
+
+
+Processing PostsController#sort (for 127.0.0.1 at 2010-06-22 18:25:40) [POST]
+  Parameters: {"authenticity_token"=>"lkj3Vvv4O1aKk14ht1OC1I5dM6nyXOStttZMxoE/kNU=", "posts"=>["42", "43", "44", "45", "46", "47", "48", "49", "50", "1", "2", "5", "7", "8", "9", "10", "20", "16", "41", "11"], "_"=>""}
+  [4;36;1mPost Update (2.4ms)[0m   [0;1mUPDATE "posts" SET position=1 WHERE (id='42') [0m
+  [4;35;1mPost Update (2.3ms)[0m   [0mUPDATE "posts" SET position=2 WHERE (id='43') [0m
+  [4;36;1mPost Update (1.7ms)[0m   [0;1mUPDATE "posts" SET position=3 WHERE (id='44') [0m
+  [4;35;1mPost Update (1.6ms)[0m   [0mUPDATE "posts" SET position=4 WHERE (id='45') [0m
+  [4;36;1mPost Update (2.1ms)[0m   [0;1mUPDATE "posts" SET position=5 WHERE (id='46') [0m
+  [4;35;1mPost Update (2.0ms)[0m   [0mUPDATE "posts" SET position=6 WHERE (id='47') [0m
+  [4;36;1mPost Update (2.5ms)[0m   [0;1mUPDATE "posts" SET position=7 WHERE (id='48') [0m
+  [4;35;1mPost Update (1.5ms)[0m   [0mUPDATE "posts" SET position=8 WHERE (id='49') [0m
+  [4;36;1mPost Update (1.5ms)[0m   [0;1mUPDATE "posts" SET position=9 WHERE (id='50') [0m
+  [4;35;1mPost Update (5.1ms)[0m   [0mUPDATE "posts" SET position=10 WHERE (id='1') [0m
+  [4;36;1mPost Update (1.9ms)[0m   [0;1mUPDATE "posts" SET position=11 WHERE (id='2') [0m
+  [4;35;1mPost Update (1.5ms)[0m   [0mUPDATE "posts" SET position=12 WHERE (id='5') [0m
+  [4;36;1mPost Update (2.2ms)[0m   [0;1mUPDATE "posts" SET position=13 WHERE (id='7') [0m
+  [4;35;1mPost Update (1.7ms)[0m   [0mUPDATE "posts" SET position=14 WHERE (id='8') [0m
+  [4;36;1mPost Update (2.0ms)[0m   [0;1mUPDATE "posts" SET position=15 WHERE (id='9') [0m
+  [4;35;1mPost Update (6.1ms)[0m   [0mUPDATE "posts" SET position=16 WHERE (id='10') [0m
+  [4;36;1mPost Update (2.0ms)[0m   [0;1mUPDATE "posts" SET position=17 WHERE (id='20') [0m
+  [4;35;1mPost Update (2.3ms)[0m   [0mUPDATE "posts" SET position=18 WHERE (id='16') [0m
+  [4;36;1mPost Update (1.4ms)[0m   [0;1mUPDATE "posts" SET position=19 WHERE (id='41') [0m
+  [4;35;1mPost Update (2.0ms)[0m   [0mUPDATE "posts" SET position=20 WHERE (id='11') [0m
+Completed in 61ms (View: 1, DB: 46) | 200 OK [http://localhost/posts/sort]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-06-22 18:25:42) [GET]
+  Parameters: {"page"=>"1"}
+  [4;36;1mPost Load (1.5ms)[0m   [0;1mSELECT * FROM "posts" ORDER BY position LIMIT 20 OFFSET 0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 21ms (View: 13, DB: 2) | 200 OK [http://localhost/posts?page=1]
+
+
+Processing PostsController#sort (for 127.0.0.1 at 2010-06-22 18:25:44) [POST]
+  Parameters: {"authenticity_token"=>"lkj3Vvv4O1aKk14ht1OC1I5dM6nyXOStttZMxoE/kNU=", "posts"=>["22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "21"], "_"=>""}
+  [4;36;1mPost Update (2.6ms)[0m   [0;1mUPDATE "posts" SET position=1 WHERE (id='22') [0m
+  [4;35;1mPost Update (1.7ms)[0m   [0mUPDATE "posts" SET position=2 WHERE (id='23') [0m
+  [4;36;1mPost Update (1.8ms)[0m   [0;1mUPDATE "posts" SET position=3 WHERE (id='24') [0m
+  [4;35;1mPost Update (2.3ms)[0m   [0mUPDATE "posts" SET position=4 WHERE (id='25') [0m
+  [4;36;1mPost Update (2.2ms)[0m   [0;1mUPDATE "posts" SET position=5 WHERE (id='26') [0m
+  [4;35;1mPost Update (2.9ms)[0m   [0mUPDATE "posts" SET position=6 WHERE (id='27') [0m
+  [4;36;1mPost Update (1.5ms)[0m   [0;1mUPDATE "posts" SET position=7 WHERE (id='28') [0m
+  [4;35;1mPost Update (1.3ms)[0m   [0mUPDATE "posts" SET position=8 WHERE (id='29') [0m
+  [4;36;1mPost Update (3.7ms)[0m   [0;1mUPDATE "posts" SET position=9 WHERE (id='30') [0m
+  [4;35;1mPost Update (1.8ms)[0m   [0mUPDATE "posts" SET position=10 WHERE (id='31') [0m
+  [4;36;1mPost Update (4.0ms)[0m   [0;1mUPDATE "posts" SET position=11 WHERE (id='32') [0m
+  [4;35;1mPost Update (1.7ms)[0m   [0mUPDATE "posts" SET position=12 WHERE (id='33') [0m
+  [4;36;1mPost Update (2.0ms)[0m   [0;1mUPDATE "posts" SET position=13 WHERE (id='34') [0m
+  [4;35;1mPost Update (2.6ms)[0m   [0mUPDATE "posts" SET position=14 WHERE (id='35') [0m
+  [4;36;1mPost Update (2.0ms)[0m   [0;1mUPDATE "posts" SET position=15 WHERE (id='36') [0m
+  [4;35;1mPost Update (1.5ms)[0m   [0mUPDATE "posts" SET position=16 WHERE (id='37') [0m
+  [4;36;1mPost Update (3.8ms)[0m   [0;1mUPDATE "posts" SET position=17 WHERE (id='38') [0m
+  [4;35;1mPost Update (1.6ms)[0m   [0mUPDATE "posts" SET position=18 WHERE (id='39') [0m
+  [4;36;1mPost Update (1.6ms)[0m   [0;1mUPDATE "posts" SET position=19 WHERE (id='40') [0m
+  [4;35;1mPost Update (3.4ms)[0m   [0mUPDATE "posts" SET position=20 WHERE (id='21') [0m
+Completed in 61ms (View: 1, DB: 46) | 200 OK [http://localhost/posts/sort]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-06-22 18:25:46) [GET]
+  Parameters: {"page"=>"2"}
+  [4;36;1mPost Load (1.6ms)[0m   [0;1mSELECT * FROM "posts" ORDER BY position LIMIT 20 OFFSET 20[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 20ms (View: 13, DB: 2) | 200 OK [http://localhost/posts?page=2]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-06-22 18:25:50) [GET]
+  Parameters: {"page"=>"1"}
+  [4;36;1mPost Load (1.6ms)[0m   [0;1mSELECT * FROM "posts" ORDER BY position LIMIT 20 OFFSET 0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 99ms (View: 14, DB: 2) | 200 OK [http://localhost/posts?page=1]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2010-06-22 18:25:54) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Rendered posts/_form (5.7ms)
+Completed in 19ms (View: 15, DB: 0) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#create (for 127.0.0.1 at 2010-06-22 18:25:58) [POST]
+  Parameters: {"commit"=>"Submit", "post"=>{"title"=>"awww yeah"}, "authenticity_token"=>"lkj3Vvv4O1aKk14ht1OC1I5dM6nyXOStttZMxoE/kNU="}
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE (1 = 1) ORDER BY position DESC LIMIT 1[0m
+  [4;35;1mPost Create (0.2ms)[0m   [0mINSERT INTO "posts" ("position", "created_at", "title", "updated_at") VALUES(21, '2010-06-22 22:25:58', 'awww yeah', '2010-06-22 22:25:58')[0m
+Redirected to http://localhost:3000/posts
+Completed in 11ms (DB: 1) | 302 Found [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-06-22 18:25:58) [GET]
+  [4;36;1mPost Load (1.6ms)[0m   [0;1mSELECT * FROM "posts" ORDER BY position LIMIT 20 OFFSET 0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 20ms (View: 13, DB: 2) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-06-22 18:26:01) [GET]
+  Parameters: {"page"=>"3"}
+  [4;36;1mPost Load (1.2ms)[0m   [0;1mSELECT * FROM "posts" ORDER BY position LIMIT 20 OFFSET 40[0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 16ms (View: 10, DB: 1) | 200 OK [http://localhost/posts?page=3]
+
+
+Processing PostsController#sort (for 127.0.0.1 at 2010-06-22 18:26:03) [POST]
+  Parameters: {"authenticity_token"=>"lkj3Vvv4O1aKk14ht1OC1I5dM6nyXOStttZMxoE/kNU=", "posts"=>["38", "16", "18", "39", "4", "40", "51", "41", "11", "19", "21"], "_"=>""}
+  [4;35;1mPost Update (3.4ms)[0m   [0mUPDATE "posts" SET position=1 WHERE (id='38') [0m
+  [4;36;1mPost Update (2.1ms)[0m   [0;1mUPDATE "posts" SET position=2 WHERE (id='16') [0m
+  [4;35;1mPost Update (2.4ms)[0m   [0mUPDATE "posts" SET position=3 WHERE (id='18') [0m
+  [4;36;1mPost Update (8.6ms)[0m   [0;1mUPDATE "posts" SET position=4 WHERE (id='39') [0m
+  [4;35;1mPost Update (1.7ms)[0m   [0mUPDATE "posts" SET position=5 WHERE (id='4') [0m
+  [4;36;1mPost Update (1.7ms)[0m   [0;1mUPDATE "posts" SET position=6 WHERE (id='40') [0m
+  [4;35;1mPost Update (1.5ms)[0m   [0mUPDATE "posts" SET position=7 WHERE (id='51') [0m
+  [4;36;1mPost Update (1.5ms)[0m   [0;1mUPDATE "posts" SET position=8 WHERE (id='41') [0m
+  [4;35;1mPost Update (2.7ms)[0m   [0mUPDATE "posts" SET position=9 WHERE (id='11') [0m
+  [4;36;1mPost Update (3.9ms)[0m   [0;1mUPDATE "posts" SET position=10 WHERE (id='19') [0m
+  [4;35;1mPost Update (1.5ms)[0m   [0mUPDATE "posts" SET position=11 WHERE (id='21') [0m
+Completed in 41ms (View: 1, DB: 31) | 200 OK [http://localhost/posts/sort]
+
+
+Processing PostsController#sort (for 127.0.0.1 at 2010-06-22 18:26:06) [POST]
+  Parameters: {"authenticity_token"=>"lkj3Vvv4O1aKk14ht1OC1I5dM6nyXOStttZMxoE/kNU=", "posts"=>["51", "38", "16", "18", "39", "4", "40", "41", "11", "19", "21"], "_"=>""}
+  [4;36;1mPost Update (3.7ms)[0m   [0;1mUPDATE "posts" SET position=1 WHERE (id='51') [0m
+  [4;35;1mPost Update (2.4ms)[0m   [0mUPDATE "posts" SET position=2 WHERE (id='38') [0m
+  [4;36;1mPost Update (2.3ms)[0m   [0;1mUPDATE "posts" SET position=3 WHERE (id='16') [0m
+  [4;35;1mPost Update (4.4ms)[0m   [0mUPDATE "posts" SET position=4 WHERE (id='18') [0m
+  [4;36;1mPost Update (2.7ms)[0m   [0;1mUPDATE "posts" SET position=5 WHERE (id='39') [0m
+  [4;35;1mPost Update (3.2ms)[0m   [0mUPDATE "posts" SET position=6 WHERE (id='4') [0m
+  [4;36;1mPost Update (2.3ms)[0m   [0;1mUPDATE "posts" SET position=7 WHERE (id='40') [0m
+  [4;35;1mPost Update (5.8ms)[0m   [0mUPDATE "posts" SET position=8 WHERE (id='41') [0m
+  [4;36;1mPost Update (2.1ms)[0m   [0;1mUPDATE "posts" SET position=9 WHERE (id='11') [0m
+  [4;35;1mPost Update (1.9ms)[0m   [0mUPDATE "posts" SET position=10 WHERE (id='19') [0m
+  [4;36;1mPost Update (2.6ms)[0m   [0;1mUPDATE "posts" SET position=11 WHERE (id='21') [0m
+Completed in 47ms (View: 1, DB: 33) | 200 OK [http://localhost/posts/sort]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-06-22 18:26:07) [GET]
+  Parameters: {"page"=>"2"}
+  [4;35;1mPost Load (1.5ms)[0m   [0mSELECT * FROM "posts" ORDER BY position LIMIT 20 OFFSET 20[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 20ms (View: 13, DB: 2) | 200 OK [http://localhost/posts?page=2]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-06-22 18:26:08) [GET]
+  Parameters: {"page"=>"1"}
+  [4;35;1mPost Load (1.6ms)[0m   [0mSELECT * FROM "posts" ORDER BY position LIMIT 20 OFFSET 0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 100ms (View: 93, DB: 2) | 200 OK [http://localhost/posts?page=1]
+
+
+Processing PostsController#sort (for 127.0.0.1 at 2010-06-22 18:26:10) [POST]
+  Parameters: {"authenticity_token"=>"lkj3Vvv4O1aKk14ht1OC1I5dM6nyXOStttZMxoE/kNU=", "posts"=>["22", "42", "51", "23", "38", "43", "16", "24", "18", "25", "45", "26", "39", "46", "44", "4", "27", "47", "28", "40"], "_"=>""}
+  [4;35;1mPost Update (3.4ms)[0m   [0mUPDATE "posts" SET position=1 WHERE (id='22') [0m
+  [4;36;1mPost Update (2.1ms)[0m   [0;1mUPDATE "posts" SET position=2 WHERE (id='42') [0m
+  [4;35;1mPost Update (2.0ms)[0m   [0mUPDATE "posts" SET position=3 WHERE (id='51') [0m
+  [4;36;1mPost Update (2.0ms)[0m   [0;1mUPDATE "posts" SET position=4 WHERE (id='23') [0m
+  [4;35;1mPost Update (1.9ms)[0m   [0mUPDATE "posts" SET position=5 WHERE (id='38') [0m
+  [4;36;1mPost Update (3.0ms)[0m   [0;1mUPDATE "posts" SET position=6 WHERE (id='43') [0m
+  [4;35;1mPost Update (2.0ms)[0m   [0mUPDATE "posts" SET position=7 WHERE (id='16') [0m
+  [4;36;1mPost Update (2.4ms)[0m   [0;1mUPDATE "posts" SET position=8 WHERE (id='24') [0m
+  [4;35;1mPost Update (2.1ms)[0m   [0mUPDATE "posts" SET position=9 WHERE (id='18') [0m
+  [4;36;1mPost Update (1.5ms)[0m   [0;1mUPDATE "posts" SET position=10 WHERE (id='25') [0m
+  [4;35;1mPost Update (1.9ms)[0m   [0mUPDATE "posts" SET position=11 WHERE (id='45') [0m
+  [4;36;1mPost Update (5.7ms)[0m   [0;1mUPDATE "posts" SET position=12 WHERE (id='26') [0m
+  [4;35;1mPost Update (1.8ms)[0m   [0mUPDATE "posts" SET position=13 WHERE (id='39') [0m
+  [4;36;1mPost Update (2.2ms)[0m   [0;1mUPDATE "posts" SET position=14 WHERE (id='46') [0m
+  [4;35;1mPost Update (1.7ms)[0m   [0mUPDATE "posts" SET position=15 WHERE (id='44') [0m
+  [4;36;1mPost Update (1.5ms)[0m   [0;1mUPDATE "posts" SET position=16 WHERE (id='4') [0m
+  [4;35;1mPost Update (2.0ms)[0m   [0mUPDATE "posts" SET position=17 WHERE (id='27') [0m
+  [4;36;1mPost Update (1.6ms)[0m   [0;1mUPDATE "posts" SET position=18 WHERE (id='47') [0m
+  [4;35;1mPost Update (1.5ms)[0m   [0mUPDATE "posts" SET position=19 WHERE (id='28') [0m
+  [4;36;1mPost Update (1.5ms)[0m   [0;1mUPDATE "posts" SET position=20 WHERE (id='40') [0m
+Completed in 61ms (View: 1, DB: 44) | 200 OK [http://localhost/posts/sort]
+
+
+Processing PostsController#sort (for 127.0.0.1 at 2010-06-22 18:26:11) [POST]
+  Parameters: {"authenticity_token"=>"lkj3Vvv4O1aKk14ht1OC1I5dM6nyXOStttZMxoE/kNU=", "posts"=>["22", "42", "51", "23", "38", "43", "16", "24", "18", "45", "26", "39", "46", "44", "4", "27", "25", "47", "28", "40"], "_"=>""}
+  [4;35;1mPost Update (4.2ms)[0m   [0mUPDATE "posts" SET position=1 WHERE (id='22') [0m
+  [4;36;1mPost Update (1.7ms)[0m   [0;1mUPDATE "posts" SET position=2 WHERE (id='42') [0m
+  [4;35;1mPost Update (25.3ms)[0m   [0mUPDATE "posts" SET position=3 WHERE (id='51') [0m
+  [4;36;1mPost Update (28.0ms)[0m   [0;1mUPDATE "posts" SET position=4 WHERE (id='23') [0m
+  [4;35;1mPost Update (17.6ms)[0m   [0mUPDATE "posts" SET position=5 WHERE (id='38') [0m
+  [4;36;1mPost Update (15.2ms)[0m   [0;1mUPDATE "posts" SET position=6 WHERE (id='43') [0m
+  [4;35;1mPost Update (2.1ms)[0m   [0mUPDATE "posts" SET position=7 WHERE (id='16') [0m
+  [4;36;1mPost Update (1.6ms)[0m   [0;1mUPDATE "posts" SET position=8 WHERE (id='24') [0m
+  [4;35;1mPost Update (1.4ms)[0m   [0mUPDATE "posts" SET position=9 WHERE (id='18') [0m
+  [4;36;1mPost Update (2.8ms)[0m   [0;1mUPDATE "posts" SET position=10 WHERE (id='45') [0m
+  [4;35;1mPost Update (86.9ms)[0m   [0mUPDATE "posts" SET position=11 WHERE (id='26') [0m
+  [4;36;1mPost Update (33.2ms)[0m   [0;1mUPDATE "posts" SET position=12 WHERE (id='39') [0m
+  [4;35;1mPost Update (5.0ms)[0m   [0mUPDATE "posts" SET position=13 WHERE (id='46') [0m
+  [4;36;1mPost Update (34.2ms)[0m   [0;1mUPDATE "posts" SET position=14 WHERE (id='44') [0m
+  [4;35;1mPost Update (9.5ms)[0m   [0mUPDATE "posts" SET position=15 WHERE (id='4') [0m
+  [4;36;1mPost Update (30.3ms)[0m   [0;1mUPDATE "posts" SET position=16 WHERE (id='27') [0m
+  [4;35;1mPost Update (3.9ms)[0m   [0mUPDATE "posts" SET position=17 WHERE (id='25') [0m
+  [4;36;1mPost Update (39.0ms)[0m   [0;1mUPDATE "posts" SET position=18 WHERE (id='47') [0m
+  [4;35;1mPost Update (1.6ms)[0m   [0mUPDATE "posts" SET position=19 WHERE (id='28') [0m
+  [4;36;1mPost Update (1.6ms)[0m   [0;1mUPDATE "posts" SET position=20 WHERE (id='40') [0m
+Completed in 366ms (View: 1, DB: 345) | 200 OK [http://localhost/posts/sort]
+
+
+Processing PostsController#sort (for 127.0.0.1 at 2010-06-22 18:26:12) [POST]
+  Parameters: {"authenticity_token"=>"lkj3Vvv4O1aKk14ht1OC1I5dM6nyXOStttZMxoE/kNU=", "posts"=>["22", "42", "51", "23", "38", "28", "43", "16", "24", "18", "45", "26", "39", "46", "44", "4", "27", "25", "47", "40"], "_"=>""}
+  [4;35;1mPost Update (2.1ms)[0m   [0mUPDATE "posts" SET position=1 WHERE (id='22') [0m
+  [4;36;1mPost Update (1.9ms)[0m   [0;1mUPDATE "posts" SET position=2 WHERE (id='42') [0m
+  [4;35;1mPost Update (2.4ms)[0m   [0mUPDATE "posts" SET position=3 WHERE (id='51') [0m
+  [4;36;1mPost Update (1.7ms)[0m   [0;1mUPDATE "posts" SET position=4 WHERE (id='23') [0m
+  [4;35;1mPost Update (2.6ms)[0m   [0mUPDATE "posts" SET position=5 WHERE (id='38') [0m
+  [4;36;1mPost Update (1.4ms)[0m   [0;1mUPDATE "posts" SET position=6 WHERE (id='28') [0m
+  [4;35;1mPost Update (1.4ms)[0m   [0mUPDATE "posts" SET position=7 WHERE (id='43') [0m
+  [4;36;1mPost Update (1.4ms)[0m   [0;1mUPDATE "posts" SET position=8 WHERE (id='16') [0m
+  [4;35;1mPost Update (1.9ms)[0m   [0mUPDATE "posts" SET position=9 WHERE (id='24') [0m
+  [4;36;1mPost Update (1.5ms)[0m   [0;1mUPDATE "posts" SET position=10 WHERE (id='18') [0m
+  [4;35;1mPost Update (2.3ms)[0m   [0mUPDATE "posts" SET position=11 WHERE (id='45') [0m
+  [4;36;1mPost Update (4.9ms)[0m   [0;1mUPDATE "posts" SET position=12 WHERE (id='26') [0m
+  [4;35;1mPost Update (1.7ms)[0m   [0mUPDATE "posts" SET position=13 WHERE (id='39') [0m
+  [4;36;1mPost Update (1.7ms)[0m   [0;1mUPDATE "posts" SET position=14 WHERE (id='46') [0m
+  [4;35;1mPost Update (2.9ms)[0m   [0mUPDATE "posts" SET position=15 WHERE (id='44') [0m
+  [4;36;1mPost Update (1.5ms)[0m   [0;1mUPDATE "posts" SET position=16 WHERE (id='4') [0m
+  [4;35;1mPost Update (1.4ms)[0m   [0mUPDATE "posts" SET position=17 WHERE (id='27') [0m
+  [4;36;1mPost Update (5.3ms)[0m   [0;1mUPDATE "posts" SET position=18 WHERE (id='25') [0m
+  [4;35;1mPost Update (3.6ms)[0m   [0mUPDATE "posts" SET position=19 WHERE (id='47') [0m
+  [4;36;1mPost Update (1.4ms)[0m   [0;1mUPDATE "posts" SET position=20 WHERE (id='40') [0m
+Completed in 56ms (View: 1, DB: 45) | 200 OK [http://localhost/posts/sort]
+
+
+Processing PostsController#sort (for 127.0.0.1 at 2010-06-22 18:26:15) [POST]
+  Parameters: {"authenticity_token"=>"lkj3Vvv4O1aKk14ht1OC1I5dM6nyXOStttZMxoE/kNU=", "posts"=>["22", "51", "23", "38", "28", "43", "16", "24", "18", "45", "26", "42", "39", "46", "44", "4", "27", "25", "47", "40"], "_"=>""}
+  [4;35;1mPost Update (2.4ms)[0m   [0mUPDATE "posts" SET position=1 WHERE (id='22') [0m
+  [4;36;1mPost Update (2.4ms)[0m   [0;1mUPDATE "posts" SET position=2 WHERE (id='51') [0m
+  [4;35;1mPost Update (1.8ms)[0m   [0mUPDATE "posts" SET position=3 WHERE (id='23') [0m
+  [4;36;1mPost Update (1.7ms)[0m   [0;1mUPDATE "posts" SET position=4 WHERE (id='38') [0m
+  [4;35;1mPost Update (3.2ms)[0m   [0mUPDATE "posts" SET position=5 WHERE (id='28') [0m
+  [4;36;1mPost Update (1.7ms)[0m   [0;1mUPDATE "posts" SET position=6 WHERE (id='43') [0m
+  [4;35;1mPost Update (2.2ms)[0m   [0mUPDATE "posts" SET position=7 WHERE (id='16') [0m
+  [4;36;1mPost Update (1.4ms)[0m   [0;1mUPDATE "posts" SET position=8 WHERE (id='24') [0m
+  [4;35;1mPost Update (2.1ms)[0m   [0mUPDATE "posts" SET position=9 WHERE (id='18') [0m
+  [4;36;1mPost Update (7.4ms)[0m   [0;1mUPDATE "posts" SET position=10 WHERE (id='45') [0m
+  [4;35;1mPost Update (3.4ms)[0m   [0mUPDATE "posts" SET position=11 WHERE (id='26') [0m
+  [4;36;1mPost Update (1.7ms)[0m   [0;1mUPDATE "posts" SET position=12 WHERE (id='42') [0m
+  [4;35;1mPost Update (1.8ms)[0m   [0mUPDATE "posts" SET position=13 WHERE (id='39') [0m
+  [4;36;1mPost Update (6.8ms)[0m   [0;1mUPDATE "posts" SET position=14 WHERE (id='46') [0m
+  [4;35;1mPost Update (2.3ms)[0m   [0mUPDATE "posts" SET position=15 WHERE (id='44') [0m
+  [4;36;1mPost Update (1.6ms)[0m   [0;1mUPDATE "posts" SET position=16 WHERE (id='4') [0m
+  [4;35;1mPost Update (1.6ms)[0m   [0mUPDATE "posts" SET position=17 WHERE (id='27') [0m
+  [4;36;1mPost Update (1.5ms)[0m   [0;1mUPDATE "posts" SET position=18 WHERE (id='25') [0m
+  [4;35;1mPost Update (1.5ms)[0m   [0mUPDATE "posts" SET position=19 WHERE (id='47') [0m
+  [4;36;1mPost Update (3.9ms)[0m   [0;1mUPDATE "posts" SET position=20 WHERE (id='40') [0m
+Completed in 75ms (View: 2, DB: 52) | 200 OK [http://localhost/posts/sort]
