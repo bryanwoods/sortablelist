@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100622214939) do
+ActiveRecord::Schema.define(:version => 20100623001110) do
 
   create_table "posts", :force => true do |t|
     t.string   "title"
@@ -17,5 +17,7 @@ ActiveRecord::Schema.define(:version => 20100622214939) do
     t.datetime "updated_at"
     t.integer  "position"
   end
+
+  add_index "posts", ["position"], :name => "index_posts_on_position"
 
 end
